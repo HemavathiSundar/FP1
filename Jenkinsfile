@@ -7,7 +7,7 @@ stages
  {
   steps
   {
-   sh 'rm -rf *'
+   sh 'rm -r *'
    sh 'rm -r /var/www/html/*'
   }
  }
