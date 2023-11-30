@@ -15,14 +15,14 @@ stages
  {
   steps
   {
-   sh 'git clone https://gitlab.com/sudhanya2204/book_my_show.git -b master'
+   sh 'git clone https://github.com/HemavathiSundar/FP1.git -b master'
   }
  }
  stage("deploy")
  {
   steps
   {
-   sh 'mv book_my_show/* /var/www/html/'
+   sh 'mv FP1/* /var/www/html/'
   }
  }
 }
